@@ -14,7 +14,10 @@ alias ls='ls -GFh'
 
 # Setting PATH for RVM and system’s directories
 # export PATH=$HOME/.rvm/gems/ruby-2.3.1/bin:$HOME/.rvm/rubies/ruby-2.3.1/bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
-export PATH=$HOME/.rvm/gems/ruby-2.3.3/bin:$HOME/.rvm/gems/ruby-2.3.3@global/bin:$HOME/.rvm/rubies/ruby-2.3.3/bin:$HOME/.rvm/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+# export PATH=$HOME/.rvm/gems/ruby-2.3.3/bin:$HOME/.rvm/gems/ruby-2.3.3@global/bin:$HOME/.rvm/rubies/ruby-2.3.3/bin:$HOME/.rvm/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+
+# Set $EDITOR
+export EDITOR=atom
 
 ## Alias definitions
 # GitHub
@@ -86,7 +89,7 @@ alias idm='wine ~/.wine/drive_c/Program\ Files/Internet\ Download\ Manager/IDMan
 alias nbp='nano .bash_profile'
 alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
 alias loginimac='ssh -i ~/.ssh/me.neemiasvf.mbp Neemias@imac.neemiasvf.me'
-alias loginaws='ssh -i ~/Documents/me.neemiasvf.aws.pem ubuntu@aws.neemiasvf.me'
+alias loginaws='ssh -i ~/Documents/me.neemiasvf.aws.pem neemiasvf@aws.neemiasvf.me'
 alias res='cd ~/github/residuos'
 alias web='cd ~/github/web-programming'
 alias webp3='cd ~/github/web-programming-p3'
