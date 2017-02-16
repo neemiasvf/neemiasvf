@@ -75,6 +75,7 @@ alias reseed='rreset && rseed && rprepare'
 alias reseedp='rmigratep && rseedp && rresetp'
 alias rs='rails server'
 alias rc='rails console'
+alias rcs='rails console --sandbox'
 alias test='rspec && cucumber'
 alias testp='rake parallel:spec && rake parallel:features'
 
