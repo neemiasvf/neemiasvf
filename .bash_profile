@@ -41,6 +41,8 @@ alias gpl='git pull'
 alias grc='git rebase --continue'
 alias gra='git rebase --abort'
 alias hsd='hack && ship && dwf'
+alias killmergedlocalbranches='git branch --merged | grep -v \* | xargs git branch -D'
+alias killalllocalbranches='git branch | grep -v \* | xargs git branch -D'
 
 # RVM
 alias installrvm='\curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew --ignore-dotfiles --version latest'
