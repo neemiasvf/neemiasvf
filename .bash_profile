@@ -61,6 +61,7 @@ alias gel='gem list'
 alias guc='gem update && gem cleanup'
 alias rvmautolibs='rvm autolibs enable && rvm autolibs packages && rvm autolibs homebrew'
 alias rvmupcl='rvm get stable && rvm cleanup all'
+alias updaterubygems='rug && guc && gem install bundler && gem install rubygems-update && gem update --system'
 
 # Rails
 alias rdrop='rake db:drop'
