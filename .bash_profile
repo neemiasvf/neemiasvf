@@ -108,4 +108,5 @@ alias rubymine='cd $HOME/Applications/RubyMine-2016.1.1/bin && ./rubymine.sh'
 alias updateubuntu='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt autoremove'
 alias createdbuser='sudo -u postgres createuser -s'
 alias gopsql='sudo -u postgres psql'  # \password
-alias cachesshkey='ssh-agent bash && ssh-add ~/.ssh/id_rsa'
+alias sshbash='ssh-agent bash'
+alias addssh='ssh-add ~/.ssh/id_rsa'
