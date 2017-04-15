@@ -96,7 +96,7 @@ alias idm='wine ~/.wine/drive_c/Program\ Files/Internet\ Download\ Manager/IDMan
 # Other
 alias nbp='nano .bash_profile'
 alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
-alias loginimac='ssh -i ~/.ssh/me.neemiasvf.mbp Neemias@imac.neemiasvf.me'
+alias loginimac='ssh Neemias@imac.neemiasvf.me'
 alias loginaws='chmod 400 ~/Documents/me.neemiasvf.aws.pem && ssh -i ~/Documents/me.neemiasvf.aws.pem neemiasvf@aws.neemiasvf.me'
 alias logins='chmod 400 ~/Documents/me.neemiasvf.server && ssh -i ~/Documents/me.neemiasvf.server neemiasvf@server.neemiasvf.me'
 alias res='cd ~/github/residuos'
