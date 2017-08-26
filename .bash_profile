@@ -15,7 +15,7 @@ alias ls='ls -GFh'
 # Setting PATH for RVM and system’s directories
 # export PATH=$HOME/.rvm/gems/ruby-2.3.1/bin:$HOME/.rvm/rubies/ruby-2.3.1/bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 # export PATH=$HOME/.rvm/gems/ruby-2.3.3/bin:$HOME/.rvm/gems/ruby-2.3.3@global/bin:$HOME/.rvm/rubies/ruby-2.3.3/bin:$HOME/.rvm/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
-export PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:$PATH
+export PATH=$HOME/.rvm/gems/ruby-2.3.4/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:$PATH
 export MANPATH=/home/linuxbrew/.linuxbrew/share/man:$MANPATH
 export INFOPATH=/home/linuxbrew/.linuxbrew/share/info:$INFOPATH
 
