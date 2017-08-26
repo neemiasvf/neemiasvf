@@ -96,6 +96,10 @@ alias testp='rake parallel:spec && rake parallel:features'
 # Wine
 alias idm='wine ~/.wine/drive_c/Program\ Files/Internet\ Download\ Manager/IDMan.exe'
 
+#rTorrent
+alias startrt='daemon --name=rtorrent rtorrent'
+alias stoprt='daemon --name=rtorrent --stop'
+
 # Other
 alias nbp='nano .bash_profile'
 alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
