@@ -96,7 +96,7 @@ alias testp='rake parallel:spec && rake parallel:features'
 # Wine
 alias idm='wine ~/.wine/drive_c/Program\ Files/Internet\ Download\ Manager/IDMan.exe'
 
-#rTorrent
+# rTorrent
 alias startrt='daemon --name=rtorrent rtorrent'
 alias stoprt='daemon --name=rtorrent --stop'
 
@@ -106,11 +106,11 @@ alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
 alias loginimac='ssh Neemias@imac.neemiasvf.me'
 alias loginaws='chmod 400 ~/Documents/ssh_keys/me.neemiasvf.server && ssh -i ~/Documents/ssh_keys/me.neemiasvf.server neemiasvf@aws.neemiasvf.me'
 alias logins='chmod 400 ~/Documents/ssh_keys/me.neemiasvf.server && ssh -i ~/Documents/ssh_keys/me.neemiasvf.server neemiasvf@server.neemiasvf.me'
-alias res='cd ~/github/residuos'
-alias web='cd ~/github/web-programming'
-alias webp3='cd ~/github/web-programming-p3'
-alias pooa='cd ~/github/pooa'
-alias per='cd ~/github/per'
+alias res='cd ~/git/residuos'
+alias web='cd ~/git/web-programming'
+alias webp3='cd ~/git/web-programming-p3'
+alias pooa='cd ~/git/pooa'
+alias per='cd ~/git/per'
 alias lsa='ls -a'
 alias lsla='ls -la'
 alias rubymine='cd $HOME/Applications/RubyMine-2016.1.1/bin && ./rubymine.sh'
