@@ -100,6 +100,10 @@ alias idm='wine ~/.wine/drive_c/Program\ Files/Internet\ Download\ Manager/IDMan
 alias startrt='daemon --name=rtorrent rtorrent'
 alias stoprt='daemon --name=rtorrent --stop'
 
+# macOS
+alias disablegatekeeper='sudo spctl --master-disable'
+alias enablegatekeeper='sudo spctl --master-enable'
+
 # Other
 alias nbp='nano .bash_profile'
 alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
