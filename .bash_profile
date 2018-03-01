@@ -19,6 +19,10 @@ export PATH=$HOME/.rvm/gems/ruby-2.3.4/bin:/home/linuxbrew/.linuxbrew/bin:/usr/l
 export MANPATH=/home/linuxbrew/.linuxbrew/share/man:$MANPATH
 export INFOPATH=/home/linuxbrew/.linuxbrew/share/info:$INFOPATH
 
+# Fixing UTF-8 locale error
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Set $EDITOR
 export EDITOR=nano
 
