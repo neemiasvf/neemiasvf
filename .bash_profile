@@ -125,6 +125,6 @@ alias createdbuser='sudo -u postgres createuser -s'
 alias gopsql='sudo -u postgres psql'  # \password
 alias sshbash='ssh-agent bash'
 alias addssh='ssh-add ~/.ssh/id_rsa'
-alias resetglr='sudo gitlab-runner uninstall && cd ~/gitlab-runner && sudo gitlab-runner install -u neemiasvf && sudo gitlab-runner start'
+alias resetglr='sudo gitlab-runner stop && cd ~/gitlab-runner && sudo gitlab-runner install -u neemiasvf && sudo gitlab-runner start'
 alias rlw='rm /Library/Caches/com.apple.desktop.admin.png'
 alias tree='tree -L 3'
