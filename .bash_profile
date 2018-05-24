@@ -106,6 +106,10 @@ alias stoprt='daemon --name=rtorrent --stop'
 alias disablegatekeeper='sudo spctl --master-disable'
 alias enablegatekeeper='sudo spctl --master-enable'
 
+# Don't Starve Together
+alias startft='screen -S dst -d -m ~/run_familia_together.sh'
+alias openft='screen -r dst'
+
 # Other
 alias nbp='nano .bash_profile'
 alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
