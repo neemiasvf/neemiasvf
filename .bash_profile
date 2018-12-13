@@ -112,7 +112,7 @@ alias openft='screen -r dst'
 
 # Other
 alias nbp='nano .bash_profile'
-alias buuc='brew update && brew upgrade && brew cleanup && brew cask cleanup'
+alias buuc='brew update && brew upgrade && brew cleanup'
 alias loginimac='ssh Neemias@imac.neemiasvf.me'
 alias loginaws='chmod 400 ~/Documents/ssh_keys/me.neemiasvf.server && ssh -i ~/Documents/ssh_keys/me.neemiasvf.server neemiasvf@aws.neemiasvf.me'
 alias logins='chmod 400 ~/Documents/ssh_keys/me.neemiasvf.server && ssh -i ~/Documents/ssh_keys/me.neemiasvf.server neemiasvf@server.neemiasvf.me'
