@@ -134,3 +134,10 @@ PERL_MM_OPT="INSTALL_BASE=/home/neemiasvf/perl5"; export PERL_MM_OPT;
 
 # added by travis gem
 [ -f /Users/neemiasvf/.travis/travis.sh ] && source /Users/neemiasvf/.travis/travis.sh
+
+# Homebrew Shell Completion
+if type brew 2&>/dev/null; then
+  source "$(brew --prefix)/etc/bash_completion.d/*"
+else
+  echo "run: brew install git bash-completion"
+fi
