@@ -132,11 +132,3 @@ alias addssh='ssh-add ~/.ssh/id_rsa'
 alias resetglr='sudo gitlab-runner stop && cd ~/gitlab-runner && sudo gitlab-runner install -u neemiasvf && sudo gitlab-runner start'
 alias rlw='rm /Library/Caches/com.apple.desktop.admin.png'
 alias tree='tree -L 3'
-
-
-# Homebrew Shell Completion
-if type brew 2&>/dev/null; then
-  source "$(brew --prefix)/etc/bash_completion.d/*"
-else
-  echo "run: brew install git bash-completion"
-fi
