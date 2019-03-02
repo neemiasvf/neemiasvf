@@ -55,7 +55,7 @@ alias killmergedlocalbranches='git branch --merged | grep -v \* | xargs git bran
 alias killalllocalbranches='git branch | grep -v \* | xargs git branch -D'
 
 # RVM
-alias installrvm='\curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew --ignore-dotfiles --version latest'
+alias installrvm='gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB && \curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew --ignore-dotfiles --version latest'
 alias ru='rvm use'
 alias rud='rvm use default'
 alias rug='rvm use @global'
