@@ -13,7 +13,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
 # Setting PATH for RVM and system’s directories
-export PATH=$HOME/.rvm/gems/ruby-2.5.3/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:$PATH
+export PATH=$HOME/.rvm/gems/ruby-2.6.1/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:$PATH
 export MANPATH=/home/linuxbrew/.linuxbrew/share/man:$MANPATH
 export INFOPATH=/home/linuxbrew/.linuxbrew/share/info:$INFOPATH
 
