@@ -54,6 +54,7 @@ alias hsd='hack && ship && dwf'
 alias killmergedlocalbranches='git branch --merged | grep -v \* | xargs git branch -D'
 alias killalllocalbranches='git branch | grep -v \* | xargs git branch -D'
 alias updatediscourse='gf upstream && gc master && git merge upstream/master && gc tests-passed && git merge upstream/tests-passed && gc dungeongg && git rebase tests-passed && gps -f'
+alias updatedocker='gf upstream && gc master && git merge upstream/master && gc dungeongg && git rebase master && gps -f && cd image/base && docker push dungeongg/discourse:release'
 
 # RVM
 alias installrvm='gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB && \curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew --ignore-dotfiles --version latest'
