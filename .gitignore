@@ -1,5 +1,6 @@
 *
-!.bash_profile
 !.gitignore
-!.bashrc
+!.zshrc
 !.zprofile
+!Dracula.terminal
+!Dracula.json
