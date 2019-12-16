@@ -52,8 +52,8 @@ alias startft='screen -S dst -d -m ~/run_familia_together.sh'
 alias openft='screen -r dst'
 
 # Other
-alias zp='nano .zprofile'
-alias zrc='nano .zshrc'
+alias zp='nano ~/.zprofile'
+alias zrc='nano ~/.zshrc'
 alias buuc='brew update && brew upgrade && brew cleanup'
 alias lsa='ls -a'
 alias lsla='ls -la'
