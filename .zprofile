@@ -14,14 +14,18 @@ export PATH="/usr/local/sbin:$PATH"
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# Load NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 ## Alias definitions
 # Git
 alias gs='git status'
 alias gl='git log'
 
 # Discourse
-alias updatediscourse='cd ~/git/discourse && gf upstream && gc master && git merge upstream/master && gc tests-passed && git merge upstream/tests-passed && gc dungeongg && git rebase tests-passed && gps --all -f'
-alias updatedocker='cd ~/git/discourse_docker/image/base && gf upstream && gc master && gps && git merge upstream/master && gc dungeongg && git rebase master && gps -f && docker build --tag=dungeongg/discourse:release . && docker push dungeongg/discourse:release'
+alias updatediscourse='cd ~/git/discourse && gf upstream && gco master && git merge upstream/master && gco tests-passed && git merge upstream/tests-passed && gco dungeongg && git rebase tests-passed && git push --all -f'
+alias updatedocker='cd ~/git/discourse_docker/image/base && gf upstream && gco master && git push && git merge upstream/master && gco dungeongg && git rebase master && git push -f && docker build --tag=dungeongg/discourse:release . && docker push dungeongg/discourse:release'
 
 # RVM
 alias installrvm='gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB && \curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew --ignore-dotfiles --version latest'
